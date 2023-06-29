@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portofolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Notre portofolio</title>
+   
+</head>
+<body>
+
+    
+
+    <div class="entete_portofolio">
+        <h1 class="titre">NOTRE PORTOFOLIO</h1>
+        <H2 class="titre2">ILS NOUS ONT FAIT CONFIANCE</H2>
+    </div>
+
+<header>
+
+    <div class="box">
+     <div class="container">
+        <div class="FGC">
+
+         <figure>
+            <figcaption>FGC<img src="img/groupe fgc.webp" alt=""></figcaption>
+        </figure>
+        
+        </div>
+        <div class="KDO">
+
+         <figure>
+            <figcaption>KDO DES ÎLES<img src="img/groupe fgc.webp" alt=""></figcaption>
+            </figure>
+        
+
+        </div> 
+         
+        <div class="PSYCLUB">
+            <figure>
+                <figcaption>PSYCLUB<img src="img/kdodesiles.webp" alt=""></figcaption>
+            </figure>
+        </div>
+
+     </div>
+
+     <div class="container2">
+
+        <div class="PL_AS_BULL">
+            <figure>
+                <figcaption>PL AS BULL<img src="img/groupe fgc.webp" alt=""></figcaption>
+            </figure>
+        </div>
+
+        <div class="OKO_SUSHI">
+            <figure>
+                <figcaption>OKO SUSHI<img src="img/groupe fgc.webp" alt=""></figcaption>
+            </figure>
+        </div> 
+
+        <div class="GARDEN_POOL">  
+            <figure>
+                <figcaption>GARDEN POOL<img src="img/kdodesiles.webp" alt=""></figcaption>
+            </figure>
+        
+        </div>
+
+        </div>
+    </header>
+    </div>
+
+    <main>
+        
+        <div class="titre_avis"><h1>Avis clients</h1></div>
+        <div class="Avis">
+        
+    
+
+    <div class="cards">
+        <div class="card">
+            <img src="img/homme-boucle-large-sourire-montre-dents-parfaites-s-amuse-par-discussions-interessantes-cheveux-fonces-boucles-touffus-interieur-contre-mur-blanc-blanc_273609-17092.avif" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos molestiae modi nobis voluptatibus quis.</p>
+            <h2>Chris Lebert</h2>
+            <h4>RH</h4>
+            <i class="fa fa-quote-left"></i>
+        </div>
+    </div>
+
+
+    <div class="cards">
+        <div class="card">
+            <img src="img/portrait-beau-jeune-homme_53876-38137.avif" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos molestiae modi nobis voluptatibus quis.</p>
+            <h2>Guy Buldo</h2> 
+            <h4>Developpeur web</h4>
+            <i class="fa fa-quote-left"></i>
+        </div>
+    </div>
+
+
+    <div class="cards">
+        <div class="card">
+            <img src="img/portrait-belle-blonde-mature-barbu-coiffure-mode-chemise-grise-decontractee-souriant_176420-15741.avif" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos molestiae modi nobis voluptatibus quis.</p>
+            <h2>Jean Pierre</h2>
+            <h4>Uix Designer</h4>
+            <i class="fa fa-quote-left"></i>
+        </div>
+    </div>
+
+
+    <div class="cards">
+        <div class="card">
+            <img src="img/portrait-homme-riant_23-2148859448.avif" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos molestiae modi nobis voluptatibus quis.</p>
+            <h2>Sandra Bullock</h2>
+            <h4>Conférencier</h4>
+            <i class="fa fa-quote-left"></i>
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <img src="img/portrait-homme-riant_23-2148859448.avif" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos molestiae modi nobis voluptatibus quis.</p>
+            <h2>Sandra Bullock</h2>
+            <h4>Conférencier</h4>
+            <i class="fa fa-quote-left"></i>
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <img src="img/portrait-homme-riant_23-2148859448.avif" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos molestiae modi nobis voluptatibus quis.</p>
+            <h2>Sandra Bullock</h2>
+            <h4>Conférencier</h4>
+            <i class="fa fa-quote-left"></i>
+        </div>
+    </div>
+
+    </main>
+
+</div>
+  
+
+</body>
+</html>
+</body>
+</html>

@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Belanosima:wght@400;600;700&family=Caprasimo&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/* Mise en forme générale */
+
+* {
+    z-index: 1;
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+body {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    background-attachment: fixed;
+    background-image: url('../Images/fond2.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+main {
+    padding-top: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #866efe67;
+    width: 100%;
+}
+
+#fond_espace {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+ }
+
+/* Mise en forme header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    height: 150px;
+    position: fixed;
+    z-index: 5;
+}
+
+nav {
+    width: 900px;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    height: 50px;
+    margin-bottom: 50px;
+    margin-top: 78px;
+}
+
+#logo {
+    height: 200px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+header ul a {
+    text-decoration: none;
+    color: #7bb3fd;
+    font-size: 18px;
+    transition: color 0.2s ease-out;
+    font-weight: 400;
+}
+
+
+header ul a:hover {
+    color: black;
+    transition: color 0.2s ease-in;
+}
+
+header li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.slogan {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    position: relative;
+    top: -99px;
+    left: -3px;
+}
+
+header li a img {
+    height: 50px;
+    position: relative;
+}
+
+/* Mise en forme footer */
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-top: 30px;
+
+}
+
+footer img {
+    margin-top: 20px;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+/* Éléments de texte */
+
+h1, h2, h3 {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #7bb3fd;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    color: black;
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p {
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border-radius: 50px;
+    border: 0;
+    height: 40px;
+    width: 200px;
+    margin-bottom: 10px;
+    font-size: medium;
+    transition: 0.3s ease-out;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: #7bb3fd;
+    transition: 0.3s ease-in;
+}
+
+
+/* ANimations de fond */
+ 
+#asteroide {
+    height: 60px;
+    position: absolute;
+    z-index: 0;
+    left: -100px;
+    bottom: 0px;
+    animation-name: asteroide;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#jupiter {
+    height: 250px;
+    position: absolute;
+    z-index: 0;
+    right: 200px;
+    top: 600px;
+    animation-name: planete;
+    animation-duration: 120s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+#satellite {
+    height: 200px;
+    position: absolute;
+    z-index: 0;
+    animation-name: satellite;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#terre {
+    height: 150px;
+    position: absolute;
+    top: 100px;
+    left: -50px;
+    animation-name: terre;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#fusee {
+    height: 200px;
+    position: absolute;
+    transform: rotate(230deg);
+    animation-name: fusee;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#planete {
+    height: 400px;
+    position: absolute;
+    left: 500px;
+    top: 500px;
+    animation-name: planete;
+    animation-duration: 150s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+#astronaute {
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    transform: rotate(330deg);
+    height: 120px;
+    animation-name: planete;
+    animation-duration: 150s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes fusee {
+    0%{
+        top: -50px;
+        right: 200px;
+    }
+    25%{
+        top: 50px;
+        right: 300px;
+    }
+    50%{
+        top: 150px;
+        right: 400px;
+    }
+    75%{
+        top: 250px;
+        right: 500px;
+    }
+    100%{
+        top: 350px;
+        right: 600px;
+    }
+}
+
+@keyframes satellite {
+    0%{
+        left: 100px;
+        bottom: 100px;
+    }
+    25%{
+        left: 50px;
+        bottom: 150px;
+    }
+    50%{
+        left: 0px;
+        bottom: 200px;
+    }
+    75%{
+        left: 50px;
+        bottom: 150px;
+    }
+    100%{
+        left: 100px;
+        bottom: 100px;
+    }
+}
+
+@keyframes terre {
+    0%{
+        transform: rotate(360deg);
+
+    }
+    25%{
+        transform: rotate(270deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes planete {
+    0%{
+        transform: rotate(0deg);
+
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes asteroide {
+    0%{
+        left: 0px;
+        bottom: -200px;
+        transform: rotate(0deg);
+    }
+    25%{
+        left: 0px;
+        bottom: 0px;
+        transform: rotate(90deg);
+    }
+    50%{
+        left: 400px;
+        bottom: 200px;
+        transform: rotate(180deg);
+    }
+    75%{
+        left: 600px;
+        bottom: 400px;
+        transform: rotate(270deg);
+    }
+    100%{
+        left: 800px;
+        bottom: 600px;
+        transform: rotate(360deg);
+    }
+}
